@@ -74,6 +74,87 @@ nav a {
     justify-content: space-between;
 }
 
+/*Service*/
+
+section{
+    padding: 1.5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(146, 135, 135, 0.85), rgba(250, 250, 255, 0.75));
+    border-radius: 12px;
+    padding: 1.25rem;
+    transition: transform .22s ease, box-shadow .22s ease;
+    border-left: 6px solid transparent;
+    font-size: medium;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card:nth-child(1) {
+    border-left-color: #2563eb
+}
+
+.card:nth-child(2) {
+    border-left-color: #10b981
+}
+
+.card:nth-child(3) {
+    border-left-color: #f59e0b
+}
+
+.card:nth-child(4) {
+    border-left-color: #ef4444
+}
+
+.card:nth-child(5) {
+    border-left-color: #8b5cf6
+}
+
+.card:nth-child(6) {
+    border-left-color: #06b6d4
+}
+
+.card:nth-child(7) {
+    border-left-color: #f97316
+}
+
+.card:nth-child(8) {
+    border-left-color: #ec4899
+}
+
+.card:nth-child(9) {
+    border-left-color: #22c55e
+}
+
+/* Team */
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.member {
+    border-radius: 20px;
+    background-color: #EE0000;
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
 /*Nos offres*/
 
 .n-section1{
@@ -156,7 +237,6 @@ nav a {
     display: block;
     margin-bottom: 0.75rem;
     font-weight: 600;
-    color: var(--text);
 }
 .contact-form input,
 .contact-form textarea {
