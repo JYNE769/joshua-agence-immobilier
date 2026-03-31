@@ -132,6 +132,40 @@ nav a {
     background-color: #EE0000;
 }
 
+/*Contact*/
+
+.c-section1{
+    background-image: url(images/WhatsApp\ Image\ 2025-11-19\ à\ 10.28.27_e1f317ad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.c-section1 div{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.c-section1 div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: var(--text);
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 10px;
+}
+
 footer {
     display: flex;
     justify-content: center;
