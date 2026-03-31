@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JYNEimmobilier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html">
+                <h2 class="logo">JYNEimmobilier</h2>
+            </a>
+        </div>
+        <div class="nav">
+            <a href="service.html">Services</a>
+            <a href="nos-offres.html">Nos offres</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <section class="c-section1">
+        <div class="container">
+            <div>
+                <h2>Contactez-nous pour plus d'information</h2>
+                <div>
+                    <p><strong>Adresse:</strong> Rue de l'Immobilier, Abidjan</p>
+                    <p><strong>Téléphone:</strong> +225 07 11 96 36 45</p>
+                    <p><strong>Email:</strong> contact@investir-immobilier.ci</p>
+                    <p>
+                        <strong>Réseaux:</strong>
+                        <a href="#">Facebook</a> • <a href="#">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <form id="contact-form" class="contact-form" aria-label="Formulaire de contact" novalidate>
+                    <label>Nom
+                        <input type="text" name="name" required placeholder="Votre nom" />
+                    </label>
+                    <label>Email
+                        <input type="email" name="email" required placeholder="votre@email.com" />
+                    </label>
+                    <label>Téléphone
+                        <input type="tel" name="phone" placeholder="+225 ..." />
+                    </label>
+                    <label>Message
+                        <textarea name="message" rows="4" placeholder="Votre projet / question" required></textarea>
+                    </label>
+                    <label class="checkbox-inline"><input type="checkbox" name="consent" /> J'accepte d'être
+                        contacté(e)</label>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+
+                <div id="form-success" class="form-success" hidden>
+                    <h3>Merci — Nous avons bien reçu votre message</h3>
+                    <p>Nous vous contacterons sous 48 heures.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>2026 JYNEimmobilier. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
